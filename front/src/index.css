@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+.menu-bar > li {
+    @apply flex items-center text-base gap-2 mb-4 ps-10 py-2 rounded-r-lg; 
+  }
+
+.subcription{
+  @apply flex justify-between items-center rounded-lg mx-4 py-2 px-5 mt-5 shadow-2xl border border-gray-400 bg-gradient-to-r from-[#f3d9ff] to-[#b566fa];
+}
